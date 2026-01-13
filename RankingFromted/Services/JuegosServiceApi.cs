@@ -14,7 +14,7 @@ namespace RankingFromted.Services
 
         public async Task<List<JuegoDto>> GetJuegosAsync()
         {
-            return await _http.GetFromJsonAsync<List<JuegoDto>>("api/juego");
+            return await _http.GetFromJsonAsync<List<JuegoDto>>("api/juegos");
         }
     }
 }
