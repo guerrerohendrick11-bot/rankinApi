@@ -1,0 +1,6 @@
+@rankinApi_HostAddress = http://localhost:5068
+
+GET {{rankinApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

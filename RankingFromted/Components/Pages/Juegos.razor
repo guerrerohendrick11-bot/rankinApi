@@ -1,0 +1,31 @@
+﻿@page "/juegos"
+@inject RankingFromted.Services.JuegoApiService JuegoService
+
+<h3>🎮 Lista de Juegos</h3>
+
+@if (juegos == null)
+{
+    <p>Cargando...</p>
+}
+else if (!juegos.Any())
+{
+    <p>No hay juegos registrados.</p>
+}
+else
+{
+    <ul>
+        @foreach (var juego in juegos)
+        {
+            <li>@juego.Nombre</li>
+        }
+    </ul>
+}
+
+@code {
+    private List<RankingFromted.Models.JuegoDto>? juegos;
+
+    protected override async Task OnInitializedAsync()
+    {
+        juegos = await JuegoService.GetJuegosAsync();
+    }
+}

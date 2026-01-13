@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="rankinApi/rankinApi.csproj" />
+  <Project Path="RankingFromted/RankingFromted.csproj" Id="7ed55ce1-fae6-42f6-a308-bbd7e842cdbd" />
+</Solution>
