@@ -1,31 +1,39 @@
-# 🏆 rankinApi
+🏆 rankinApi
 
-Proyecto de aprendizaje enfocado en **Blazor**, desarrollado en C#.
+A Blazor-focused learning project developed in C#.
 
-## ✨ Características
+✨ Features
 
-- Aplicación construida con Blazor (.NET)
-- Backend en C# con acceso a base de datos SQL Server
-- Práctica de componentes reutilizables y ciclo de vida en Blazor
+Application built with Blazor (.NET)
+C# backend with SQL Server database access
+Practice with reusable components and the Blazor lifecycle
 
-## 🛠️ Tecnologías
+🛠️ Technologies
 
-- C# / .NET
-- Blazor
-- Entity Framework Core
-- SQL Server
+C# / .NET
+Blazor
+Entity Framework Core
+SQL Server
 
-## 🚀 Cómo ejecutar el proyecto
+🚀 How to run the project
 
-```bash
-git clone https://github.com/guerrerohendrick11-bot/rankinApi.git
+bashgit clone https://github.com/guerrerohendrick11-bot/rankinApi.git
 cd rankinApi
 dotnet ef database update
 dotnet run
-```
 
-## 🎯 Objetivo del proyecto
+🎯 Project objective
 
-Este repositorio es un proyecto de práctica para aprender los fundamentos de Blazor: componentes, binding de datos, y comunicación con el backend.
+This repository is a practice project to learn the fundamentals of Blazor: components, data binding, and backend communication.
 
-Este proyecto es de uso libre con fines de aprendizaje.
+📌 Next Steps / Improvements
+
+Add JWT authentication
+Document API endpoints
+Add unit tests
+
+This pending improvements section is optional, but it shows anyone reviewing the repo that you know where the project is headed.
+
+📄 License
+
+This project is free to use for learning purposes.
